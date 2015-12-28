@@ -1,0 +1,41 @@
+{
+  "name": "vue-boilerplate",
+  "version": "1.0.0",
+  "description": "vue CMS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --quiet --history-api-fallback --host 0.0.0.0",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules --instead"
+  },
+  "dependencies": {
+    "vue": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.2",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-transform-runtime": "^6.1.2",
+    "babel-preset-es2015": "^6.1.2",
+    "babel-preset-stage-0": "^6.1.2",
+    "babel-runtime": "^5.8.0",
+    "cross-env": "^1.0.5",
+    "css-loader": "^0.23.0",
+    "file-loader": "^0.8.4",
+    "jade": "^1.11.0",
+    "parse": "^1.6.9",
+    "style-loader": "^0.13.0",
+    "stylus-loader": "^1.4.0",
+    "template-html-loader": "0.0.3",
+    "vue": "^1.0.12",
+    "vue-async-data": "^1.0.2",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^7.2.0",
+    "vue-resource": "^0.1.17",
+    "vue-router": "^0.7.7",
+    "vue-strap": "^1.0.3",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  },
+  "author": "Pham Thai Duong",
+  "license": "MIT"
+}
