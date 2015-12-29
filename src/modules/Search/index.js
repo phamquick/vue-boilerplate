@@ -14,7 +14,7 @@ var Test = new Promise(function (resolve, reject) {
     setTimeout(function () {
         resolve('Test');
         clearInterval(timer);
-    },1000)
+    },1000);
 
 });
 

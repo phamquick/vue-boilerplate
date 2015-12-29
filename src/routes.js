@@ -7,6 +7,12 @@ export function configRouter (router) {
 			component: Home,
 			name: 'home'
 		},
+		'/contact':{
+			component: {
+				template :'CONTACT'
+			},
+			name: 'contact'
+		},
 		'*': {
 			component: E404
 		}

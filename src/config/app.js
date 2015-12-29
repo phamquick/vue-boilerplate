@@ -4,6 +4,6 @@ export default {
 		history: true,
 		saveScrollPosition: true,
 		transitionOnLoad:true,
-		root : '//'
+		//root : '//'
 	}
 }
