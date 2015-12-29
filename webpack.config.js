@@ -13,7 +13,7 @@ module.exports = {
             VueRouter: "vue-router",
             VueResource: "vue-resource",
             Parse: "parse",
-            Config: "./config"
+            Config: __dirname +"/src/config"
         })
     ],
     module: {

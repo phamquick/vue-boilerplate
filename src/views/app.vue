@@ -1,3 +1,4 @@
+<style src="./../assets/sass/app.scss"></style>
 <template>
     <div>
         <router-view></router-view>

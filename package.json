@@ -21,7 +21,9 @@
     "css-loader": "^0.23.0",
     "file-loader": "^0.8.4",
     "jade": "^1.11.0",
+    "node-sass": "^3.4.2",
     "parse": "^1.6.9",
+    "sass-loader": "^3.1.2",
     "style-loader": "^0.13.0",
     "stylus-loader": "^1.4.0",
     "template-html-loader": "0.0.3",
@@ -33,7 +35,7 @@
     "vue-resource": "^0.1.17",
     "vue-router": "^0.7.7",
     "vue-strap": "^1.0.3",
-    "webpack": "^1.12.2",
+    "webpack": "^1.12.9",
     "webpack-dev-server": "^1.12.0"
   },
   "author": "Pham Thai Duong",
